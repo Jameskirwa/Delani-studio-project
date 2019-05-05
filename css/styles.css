@@ -5,9 +5,13 @@ body{
   margin: auto;
   background-image: url("../assets/backgrounds/h_img.jpg");
   padding: 40px;
+  color: white;
 }
 .Services{
   background-image: url("../assets/backgrounds/s_image.jpg");
+  color: white;
+  margin: auto;
+  padding: 100px;
 }
 .Us{
   background-image: url("../assets/backgrounds/c_image.jpg");
