@@ -4,7 +4,7 @@ body{
 .Delani{
   margin: auto;
   background-image: url("../assets/backgrounds/h_img.jpg");
-  padding: 40px;
+  padding: 100px;
   color: white;
 }
 .Services{
@@ -15,6 +15,8 @@ body{
 }
 .Us{
   background-image: url("../assets/backgrounds/c_image.jpg");
+  margin: auto;
+  padding: 100px;
 }
 .port{
 
