@@ -20,5 +20,5 @@ body{
   padding: 100px;
 }
 .What{
-display: inline;
+display: inline-block;
 }
