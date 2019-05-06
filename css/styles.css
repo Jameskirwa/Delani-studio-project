@@ -17,7 +17,7 @@ body{
 .Us{
   background-image: url("../assets/backgrounds/c_image.jpg");
   margin: auto;
-  padding: 100px;
+  padding-bottom: 50px;
 }
 .What{
 display:block;
