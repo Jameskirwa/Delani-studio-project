@@ -24,15 +24,15 @@ body{
 }
 .portfolio{
   background: green;
-  padding: 10px;
+  /* padding: 10px; */
   position: relative;;
 }
 .port-desc{
   position: absolute;
   height: 100%;
   width: 100%;
-  margin-top: -80%;
-  background:white;
+  margin-top: -84%;
+  background: rgba(255,255,255,0.6);
   opacity: 1;
 }
 .Us{
@@ -44,6 +44,9 @@ body{
   display: flex;
   justify-content: space-around;
   padding: 100px;
+}
+.icons{
+  background-color: red;
 }
 
 }
