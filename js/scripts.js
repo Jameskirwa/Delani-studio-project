@@ -11,7 +11,7 @@ $(document).ready(function(){
     ("").toggle();
     ("").toggle();
   });
-  $("#submit")click(function(){
+  $("#submit").click(function(){
     var name=(document.getElementById().value);
     alert( name + " thanks for sending a message.")
   });

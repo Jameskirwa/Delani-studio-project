@@ -5,6 +5,9 @@
    <meta charset="utf-8">
    <title>Delani studio project</title>
    <link rel= "stylesheet" href= "css/styles.css">
+   <script src="./js/jquery.js">
+
+   </script>
    <script src="js/scripts.js"></script>
    </head>
    <body>
@@ -33,22 +36,29 @@
    The outcome of the scoping session is a proposal or high level statement of work.
    Based on your requirements,we can provide a complete offering or just the prices you need.</p>
    </div>
-
-   <div class="What">
    <h2>WHAT DO WE DO</h2>
-   <p>DESIGN</p>
+   <div class="What">
+   <div class="flex">
    <img src="assets/services_icons/design_icon.png">
-   <p>DEVEVOPMENT</p>
-   <img src="assets/services_icons/dev_icon.png">
-   <p>PROJECT MANAGEMENT</p>
-   <img src="assets/services_icons/product_icon.png">
+   <p>DESIGN</p>
    </div>
 
-    <div class="Port">
+   <div class="flex">
+   <img src="assets/services_icons/dev_icon.png">
+   <p>DEVEVOPMENT</p>
+   </div>
+
+   <div class="flex">
+   <img src="assets/services_icons/product_icon.png">
+   <p>PROJECT MANAGEMENT</p>
+    </div>
+   </div>
+
+    <div class="port">
    <h2>PORTFOLIO</h2>
-   <div class="">
+   <div class="portfolio">
      <img src="./assets/portfolio/work1.jpg">
-     <div class="">
+     <div class="port-desc">
        <p>Project name</p>
      </div>
    </div>
@@ -56,7 +66,7 @@
    <div class="">
    <img src="./assets/portfolio/work2.jpg">
    <div class="">
-     <p></p>
+     <p>Project 1</p>
    </div>
    </div>
 
@@ -106,7 +116,7 @@
    <div class="Us">
    <h2>CONTACT US</h2>
    <form action="/action_page.php">
-   <input type="text" name="firstname" placeholder=""="Name">
+   <input type="text" name="firstname" placeholder="name"="Name">
    <input type="text" name="email" placeholder="Email"><br><br>
    <input type="text" placeholder="input your text here">
    <input type="submit" id="submit" value="submit">

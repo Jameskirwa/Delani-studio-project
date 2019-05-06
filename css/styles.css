@@ -14,13 +14,37 @@ body{
   margin: auto;
   padding: 100px;
 }
+.port{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;;
+}
+.port h2{
+  width: 100%;
+}
+.portfolio{
+  background: green;
+  padding: 10px;
+  position: relative;;
+}
+.port-desc{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-top: -80%;
+  background:white;
+  opacity: 1;
+}
 .Us{
   background-image: url("../assets/backgrounds/c_image.jpg");
   margin: auto;
-  padding: 100;
+  padding: 120px;
 }
 .What{
-display:block;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+}
 
 }
 @media screen and (max-width:800px) {
