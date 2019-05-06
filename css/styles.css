@@ -23,9 +23,12 @@ body{
   width: 100%;
 }
 .portfolio{
-  background: green;
+  width: 23%;
   /* padding: 10px; */
   position: relative;;
+}
+.portfolio img{
+  width: 100%;
 }
 .port-desc{
   position: absolute;
