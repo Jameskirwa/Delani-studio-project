@@ -1,4 +1,4 @@
-$(document).ready(function(){
+ $(document).ready(function(){
   $(".port-desc").hide();
   $(".portfolio").hover(function(){
     $(this).children(".port-desc").toggle();
