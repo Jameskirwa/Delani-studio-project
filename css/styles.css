@@ -42,6 +42,7 @@ body{
   background-image: url("../assets/backgrounds/c_image.jpg");
   margin: auto;
   padding: 120px;
+  margin-top: 20px;
 }
 .What{
   display: flex;
@@ -49,8 +50,7 @@ body{
   padding: 100px;
 }
 .icons{
-}
-
+margin-top: 20px;
 }
 @media screen and (max-width:800px) {
   .left, .main, .right {
